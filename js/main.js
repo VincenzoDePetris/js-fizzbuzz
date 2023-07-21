@@ -6,7 +6,7 @@
 const maxNumber = 100;
 const minNumber = 1;
 
-for (i = minNumber; i <= maxNumber; i++) {
+for (let i = minNumber; i <= maxNumber; i++) {
   if (i % 5 == 0 && i % 3 == 0) {
     console.log("fizzbuzz");
   } else if (i % 5 == 0) {
